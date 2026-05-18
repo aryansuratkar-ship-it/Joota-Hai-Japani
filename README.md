@@ -1,16 +1,10 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is a modern Sneaker E-Commerce web application built using React.
+It allows users to browse different sneaker products fetched from a public API.
+The app includes a dynamic search feature that redirects users to a separate results page.
+Products are displayed using reusable components with a clean and responsive UI.
+Users can add items to the cart, and the cart count updates in real time.
+Cart data is stored in localStorage so it remains even after page refresh.
+React Router is used for smooth navigation between home and search pages.
+The project demonstrates key React concepts like hooks, props, and state management.
+It also includes filtering logic to show relevant search results.
+Overall, it is a simple yet powerful e-commerce frontend project.

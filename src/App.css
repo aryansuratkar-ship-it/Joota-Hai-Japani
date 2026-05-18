@@ -1,0 +1,8 @@
+*{
+    font-family: 'futura';
+}
+
+#hero::-webkit-scrollbar{
+    display: none;
+
+}
